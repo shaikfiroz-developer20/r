@@ -1,0 +1,41 @@
+.Landingpage {
+    margin: 0;
+    padding: 0;
+    width: 99vw;
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .buttonsofcheck {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+  }
+  
+  .recruiter {
+    background-color: #b2071d;
+    color: white;
+    font-family: Agbalumo;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .casualperson {
+    font-family: Agbalumo;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .buttonsofcheck input {
+    width: 350px;
+    padding: 30px;
+  }
+  
+  .recruiter:hover,
+  .casualperson:hover {
+    transform: scale(1.1);
+cursor: pointer;  }
+  

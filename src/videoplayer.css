@@ -1,0 +1,227 @@
+.outerofvideoplayer{
+    display: flex;
+height: fit-content;
+}
+
+.videooterdiv{
+    display: flex;
+    flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+    width: 73vw;
+    height: fit-content;
+}
+.videostat{
+    width: 72vw;
+    display: grid;
+    justify-content: start;
+}
+.nointernetvideoplayerpage{
+
+width: 200px;
+height: 200px;
+display: flex;
+flex-direction: column ;
+justify-content: center;
+align-items: center;
+
+}
+.video{
+    display: flex;
+    width: 72vw;
+    justify-content: start;
+    margin-top: 25px;
+    align-items: center;
+}
+.videoplayeriframe
+{
+    width: 72vw;
+    height: 63vh;
+}
+
+.suggestionheading{
+    width: 23vw;
+    height: 10vh;
+}
+.spanning{
+    display: flex;
+    gap: 10px;
+
+}
+.publishedtimevideoplayer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.suggestionheading p{
+    margin-top: 10vh;
+    text-decoration: underline;
+    color: rgb(186, 186, 186);
+}
+.videotitlevideoplayerpage{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.suggestedvideos{
+    width: 24vw;
+}
+
+.suggestionvideocard{
+    border: 1px solid rgb(34, 31, 31);
+}
+
+.suggestedvideosgrid{
+    display: flex;
+flex-direction: column;
+gap: 30px;}
+.imgssuggestedvideosvideoplayer{
+    display: flex;
+    height: 210px;
+    border-radius: 40px;
+    overflow-y: hidden;
+object-fit: contain;
+background-color: black;
+justify-content: center;
+align-items: center;
+}
+
+.linknavigatorvideoplayer{
+    color: white;
+    text-decoration: none;
+}
+
+
+.channeltitlevideoplayer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: wavy;
+    margin-left: 10px;
+    color: rgb(160, 160, 160);
+}
+
+.discriptionbox{
+    background-color: rgb(29, 29, 29);
+width: 72vw;
+min-height: 7vh;
+height: auto;
+padding-bottom: 60px;
+}
+.discriptionbox p{
+    margin-left: 15px;
+}
+
+.discriptioninsidedesbox{
+    width: 75%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: inherit;
+    color: rgb(194, 183, 183);
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+.moredetailsvisiblebutton{
+    background-color: transparent;
+    color: skyblue;
+    border: none;
+}
+
+.videodetailssuggestionvideoplayer {
+    width: 20vw;
+    margin-left: 10px;
+    height: auto;
+}
+
+.imagesvideosonesuggestion{
+    width: 20vw;
+}
+
+@media  only screen and (max-width: 600px){
+
+    
+
+.outerofvideoplayer{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagesvideosonesuggestion{
+    display: flex;
+    width: 350px;
+    height: 250px;
+justify-content: center;
+align-items: center;
+
+
+}
+.imgssuggestedvideos{
+    
+    border-bottom:  3px solid rgb(43, 43, 43);
+}
+
+
+.channeltitlevideoplayer{
+    height: fit-content;
+    width: fit-content;
+}
+
+.videooterdiv{
+    width: 98vw;
+}
+
+.suggestedvideos{
+    width: 98vw;
+    margin-left: 1vw;
+    gap: 20px;
+}
+
+.videoplayeriframe{
+    width: 95vw;
+    height: 55vw;
+}
+.video{
+    width: 95vw;
+    height: 55vw;
+}
+
+.videostat{
+    width: 94vw;
+    height: auto;
+}
+
+.channeltitlevideoplayer {
+    width: 70vw;
+    height: auto;
+color: white;
+font-weight: bold;
+}
+
+.videodetailssuggestionvideoplayer{
+    width: 95vw;
+    height: auto;
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.videodetailssuggestionvideoplayer{
+    display: flex;
+    height: fit-content;
+    justify-content: flex-start;
+}
+
+
+.discriptionbox{
+    width: 94vw;
+    min-height: 7vh;
+background-color: rgb(29, 29, 29);}
+
+
+.moredetailsvisiblebutton{
+    background-color: transparent;
+    color: skyblue;
+    border: none;
+}
+}

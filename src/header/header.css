@@ -1,0 +1,120 @@
+.header{
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+  height: 10vh;
+  display: flex;
+  width: 100%;
+
+  position: sticky;
+  top: 0;
+}
+
+.header1{
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    color: white;
+
+
+}
+
+.logo{
+    width: fit-content;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.searchbar{
+    display: flex;
+    width: fit-content;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+   }
+
+.searchinput input{
+width: 35vw;
+height: 28px;
+background-color: black;
+color: white;
+font-family: 'Courier New', Courier, monospace;
+border-width: 0px;
+
+}
+.searchbutton{
+    border: 50%;
+    background-color: black;
+    border-width: 0px;
+}
+
+.searchinput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 2px solid rgb(49, 49, 49);
+    padding: 3px;
+border-bottom-left-radius: 15px;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 15px;
+border-top-right-radius: 15px;
+}
+.searchinput input:focus{
+    outline: none;
+}
+
+.searchform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin-right: 20px;
+    padding: 5px;
+border: 2px solid grey;
+border-radius: 50%;
+}
+
+.profile:hover ,.searchvoice:hover, .searchbutton:hover{
+    cursor: pointer;
+}
+.logo img{
+width: 80px;
+height: 4%;
+margin-left: 10px;
+}
+
+.searchvoice{
+    border: 50%;
+    background-color: black;
+    border-width: 0px;
+}
+
+
+.profile img{
+    width: 30px;
+    height: 30px;
+}
+@media only screen and (max-width : 400px) {
+
+}
+
+.speakerdivforinput{
+position: fixed;
+width: 300px;
+height: 300px;
+margin-top: 50vw;
+background-color: blue;
+color: white;
+}

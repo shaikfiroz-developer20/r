@@ -1,0 +1,231 @@
+
+.searchresultbody {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin-left: 40px;
+    min-height: 80vh;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.displaysearchedvideoouterdiv{
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.sidenavitem{
+    cursor: pointer;
+}
+
+.imgandcontentboxsearchresultspage {
+    display: flex;
+    width: 90vw;
+  
+}
+
+.imagesvideosonesearchpagein,
+.imagesvideosonesearchpage {
+    width: 400px;
+    object-fit: contain;
+    height: 310px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+.datasearchpageouterdispalygrid{
+    width: fit-content;
+}
+
+.datasearchresultpage {
+    display: flex;
+    height: max-content;
+    width: fit-content;
+    flex-direction: column;
+    margin-left: 2vw;
+}
+
+
+
+.channelnamesearchpage{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+  height: 25px;
+  gap: 20px;
+}
+
+.channelnamesearchpage p {  
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+.videodatastatsearchpage p{
+    color: grey;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+
+
+
+.linknavigatorsearch {
+    text-decoration: none;
+}
+
+.imgandcontentboxsearchresultspage{
+    width: 80vw;
+}
+
+.onlinespinnerandnetworkisuue {
+    display: flex;
+    width: 90vw;
+    height: 70vh;
+    margin-left: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.networkandtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.networkandtext p, .networkandtext p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+@media only screen and (min-width:701px) and (max-width: 900px) {
+
+    .imagesvideosonesearchpage{
+        width: 350px;
+        height: 230px;
+        object-fit: contain;
+    }
+.imagesvideosonesearchpagein{
+    width: 350px;
+    height: 230px;
+}
+ 
+.videodatastatsearchpage p{ 
+    font-size: 16px;
+margin-top: 25px;
+}
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+    
+    .imgandcontentboxsearchresultspage{
+        display: grid;
+    }
+   
+        .imagesvideosonesearchpage{
+            width: 350px;
+            height: 270px;
+            object-fit: contain;
+        }
+    .imagesvideosonesearchpagein{
+        width: 400px;
+        height: 270px;
+        margin-left: -10px;
+    }
+        .searchresultvideopage{
+            width: 80vw;
+            height: fit-content;
+            border: 1px solid rgb(46, 46, 46);
+        }
+    
+        .videodatastatsearchpage p{ 
+            font-size: 17px;
+    
+        }
+        .videodatastatsearchpage{
+            width: 75vw;
+            margin-top: -20px;
+            min-height: 17px;
+            
+            height: fit-content;
+        }
+       .channelnamesearchpage p{
+        font-size: 14px;
+       }
+       .channelnamesearchpage{
+        width: 75vw;
+       }
+        
+    
+        .displaysearchedvideoouterdiv{
+            width: 80vw;
+            margin-top: 20px;
+        }
+    }
+    
+    
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+    
+  
+        .imagesvideosonesearchpage{
+            width: 350px;
+            height: 230px;
+            object-fit: contain;
+        }
+    .imagesvideosonesearchpagein{
+        width: 350px;
+        height: 230px;
+    }
+    }
+    
+    
+
+
+
+@media only screen and (max-width: 400px) {
+
+    
+
+    .imagesvideosonesearchpage{
+        width: fit-content;
+        height: 45vw;
+        object-fit: contain;
+    }
+.imagesvideosonesearchpagein{
+    width: 75vw;
+    height: 45vw;
+}
+}
+
