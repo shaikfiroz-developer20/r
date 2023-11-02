@@ -15,9 +15,7 @@
     "react-spinners": "^0.13.8",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://shaikfiroz-developer20.github.io/reactpartyoutubeclone1/", 
-
-
+  "homepage": "https://shaikfiroz-developer20.github.io/reactpartyoutubeclone1/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
